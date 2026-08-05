@@ -1,19 +1,34 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Neste desafio, você vai construir um jogo da Forca em Python usando strings, laços de repetição, condicionais e entrada de dados do usuário. O objetivo é praticar a lógica do jogo enquanto trabalha com seleção aleatória e controle de estado.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar a Lógica Principal do Jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie a base do jogo da Forca, incluindo a escolha aleatória de uma palavra e a atualização do progresso conforme o jogador adivinha letras.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar uma palavra aleatoriamente de uma lista predefinida.
+- Aceitar palpites de letras do usuário.
+- Exibir o progresso atual da palavra no formato ` _ _ _ `, revelando apenas as letras acertadas.
+- Encerrar o jogo quando a palavra for adivinhada.
+
+### 🛠️ Controlar Tentativas e Mensagens Finais
+
+#### Descrição
+Adicione o controle de erros do jogador para limitar as tentativas e mostrar mensagens claras de vitória ou derrota.
+
+#### Requisitos
+O programa concluído deve:
+
+- Rastrear a quantidade de tentativas incorretas restantes.
+- Encerrar o jogo quando as tentativas acabarem.
+- Exibir uma mensagem de vitória quando o jogador descobrir a palavra.
+- Exibir uma mensagem de derrota informando a palavra correta quando o jogador não conseguir adivinhar.
