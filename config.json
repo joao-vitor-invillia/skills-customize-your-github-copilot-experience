@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "data-structures-complexity",
+      "title": "Estruturas de Dados e Complexidade em Python",
+      "description": "Desafio avançado para implementar e comparar estruturas de dados e estratégias algorítmicas com análise de desempenho em Python.",
+      "path": "assignments/data-structures-complexity",
+      "dueDate": "2026-08-12",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
